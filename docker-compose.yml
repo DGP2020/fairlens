@@ -1,0 +1,14 @@
+
+services:
+  api:
+    build: .
+    ports:
+      - "8000:80"
+  ui:
+    build:
+      context: .
+      dockerfile: Dockerfile.ui
+    ports:
+      - "8501:8501"
+    depends_on:
+      - api

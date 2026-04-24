@@ -3,5 +3,10 @@ uvicorn
 pandas
 numpy
 scikit-learn
-imblearn
+imbalanced-learn
 shap
+python-multipart
+streamlit
+matplotlib
+seaborn
+requests
